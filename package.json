@@ -1,0 +1,26 @@
+{
+  "name": "suji",
+  "version": "0.0.1",
+  "description": "Open souce POS web-based system",
+  "bin" : {
+    "suji" : "bin/suji.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naver-d2-suji/gernerator.git"
+  },
+  "keywords": [
+    "suji",
+    "pos"
+  ],
+  "author": "njir <njir@naver.com> (http://njir.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naver-d2-suji/gernerator/issues"
+  },
+  "homepage": "https://github.com/naver-d2-suji/gernerator#readme"
+}
