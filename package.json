@@ -1,26 +1,43 @@
 {
   "name": "suji",
-  "version": "0.0.1",
-  "description": "Open souce POS web-based system",
-  "bin" : {
-    "suji" : "bin/suji.js"
-  },
-  "main": "./lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.0",
+  "description": "Generate SUJI for open souce POS web-based system",
+  "homepage": "pos.suji.io",
+  "bugs": "https://github.com/njir/suji/issues",
+  "author": "HyungTak Jin <njir@naver.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naver-d2-suji/gernerator.git"
+    "url": "https://github.com/njir/suji"
   },
+  "bin": "bin/suji",
   "keywords": [
     "suji",
-    "pos"
+    "suji",
+    "pos",
+    "webpos"
   ],
-  "author": "njir <njir@naver.com> (http://njir.github.io/)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/naver-d2-suji/gernerator/issues"
+  "dependencies": {
+    "yargs": "^3.15.0"
   },
-  "homepage": "https://github.com/naver-d2-suji/gernerator#readme"
+  "devDependencies": {
+    "tape": "^4.0.1",
+    "tap-spec": "^4.0.2",
+    "gaze-cli": "^0.2.0",
+    "standard": "^4.5.0"
+  },
+  "scripts": {
+    "prepublish": "npm run lint && npm test",
+    
+    "lint": "standard",
+    "test": "node test/index.js | tap-spec",
+    "test:watch": "gaze 'npm test' 'test/**/*.js' 'lib/**/*.js' 'index.js'",
+    "start": "npm run test:watch"
+  }
 }
