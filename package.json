@@ -2,8 +2,9 @@
   "name": "suji",
   "version": "0.0.1",
   "description": "Open souce POS web-based system",
-  "bin" : {
-    "suji" : "bin/suji.js"
+  "bin": {
+    "suji": "bin/suji.js",
+    "suji-test": "bin/suji-shell.js"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/naver-d2-suji/gernerator/issues"
   },
-  "homepage": "https://github.com/naver-d2-suji/gernerator#readme"
+  "homepage": "https://github.com/naver-d2-suji/gernerator#readme",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
 }
