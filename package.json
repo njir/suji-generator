@@ -13,10 +13,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naver-d2-suji/generator.git"
+
   },
+  "bin": "bin/suji",
   "keywords": [
     "suji",
-    "pos"
+    "suji",
+    "pos",
+    "webpos"
   ],
   "author": "njir <njir@naver.com> (http://njir.github.io/)",
   "license": "ISC",
