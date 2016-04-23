@@ -1,8 +1,8 @@
-# SUJI 
+# suji-generator
 
 [![npm][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![js-standard-style][standard-image]][standard-url]
 
-Don't Download it. Coming soon
+Don't Download or use it. To be deleted
 
 [travis-image]: https://travis-ci.org/njir/suji.svg?branch=master
 [travis-url]: https://travis-ci.org/njir/suji
