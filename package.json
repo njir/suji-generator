@@ -13,21 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suji-korea/generator.git"
+    "url": "git+https://github.com/njir/suji-generator.git"
 
   },
   "keywords": [
     "suji",
-    "suji",
-    "pos",
-    "webpos"
+    "njir"
   ],
-  "author": "@Torch",
-  "license": "ISC",
+  "author": "njir",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/suji-korea/generator/issues"
+    "url": "https://github.com/njir/suji-generator/issues"
   },
-  "homepage": "https://github.com/suji-korea/generator#readme",
+  "homepage": "https://github.com/njir/suji-generator#readme",
   "dependencies": {
     "shelljs": "^0.5.3",
     "body-parser": "~1.13.2",
